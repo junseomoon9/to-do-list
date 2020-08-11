@@ -1,0 +1,121 @@
+/*
+  ========================================
+  All
+  ========================================
+*/
+
+* {margin: 0 ; padding: 0;}
+
+
+/*
+  ========================================
+  Body
+  ========================================
+*/
+
+body {
+    background: #f0f1ea;
+    color: turquoise;
+    font: 400 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Title
+  ========================================
+*/
+.title {
+    text-align: center;
+    text-decoration: underline;
+    margin: 36px 36px;
+    font-size: 50px;
+}
+
+/*
+  ========================================
+  Form
+  ========================================
+*/
+form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/*
+  ========================================
+  body
+  ========================================
+*/
+
+body {
+    background: #f0f1ea;
+    color: turquoise;
+    font: 400 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/*
+  ========================================
+  Container
+  ========================================
+*/
+
+.container {
+    text-align: center;
+}
+
+/*
+  ========================================
+  Input
+  ========================================
+*/
+#ItemInput {
+    padding: 5px 5px;
+    width: 600px;
+    border: solid;
+    border-radius: 5px;
+    height: 20px;
+    border-color: turquoise;
+}
+
+#ItemInput:focus {
+    box-shadow: 0 0 8px 0 turquoise;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.main-button {
+    width: 100px;
+    border: solid;
+    border-radius: 5px;
+    padding: 6px 7px;
+    border-color: turquoise;
+    color: turquoise;
+    font-weight: 15px;
+    font-size: 15px
+}
+
+.clear-button {
+
+    width: 150px;
+    border: solid;
+    border-radius: 5px;
+    padding: 6px 7px;
+    border-color: turquoise;
+    color: turquoise;
+    font-weight: 15px;
+    font-size: 20px
+
+}
+
+.main-button:hover, .clear-button:hover {
+    
+    box-shadow: 0 0 8px 0 turquoise;
+}
+
