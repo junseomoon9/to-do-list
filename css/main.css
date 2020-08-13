@@ -40,7 +40,7 @@ body {
 form {
     margin-top: 50px;
     margin-bottom: 50px;
-    text-align: center;
+
 }
 
 /*
@@ -63,7 +63,13 @@ body {
 */
 
 .container {
-    text-align: center;
+  text-align: center;
+    
+}
+
+.item-container{
+  text-align: center;
+  
 }
 
 /*
@@ -110,12 +116,65 @@ body {
     border-color: turquoise;
     color: turquoise;
     font-weight: 15px;
-    font-size: 20px
+    font-size: 20px;
+    margin-top: 30px
 
 }
 
 .main-button:hover, .clear-button:hover {
-    
+    cursor: pointer;
     box-shadow: 0 0 8px 0 turquoise;
 }
+
+/*
+  ========================================
+  List
+  ========================================
+*/
+
+ul {
+  font-size: 20px;
+  list-style: none;
+}
+
+li {
+  margin-top: 10px;
+}
+
+.item {
+  width: 710px;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  justify-content: space-between;
+}
+
+/*
+  ========================================
+  Text
+  ========================================
+*/
+.text {
+  color: #000000;
+}
+
+/*
+  ========================================
+  Icons
+  ========================================
+*/
+.fa-check-circle {
+  color: #06df06;
+  font-size: 25px;
+  margin-right: 5px;
+}
+.fa-times-circle {
+  color: #a71414;
+  font-size: 25px;
+  margin-right: 5px;
+}
+.fa-check-circle:hover, .fa-times-circle:hover {
+  cursor: pointer;
+}
+
 
