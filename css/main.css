@@ -173,8 +173,10 @@ li {
   font-size: 25px;
   margin-right: 5px;
 }
+
 .fa-check-circle:hover, .fa-times-circle:hover {
   cursor: pointer;
 }
+
 
 
