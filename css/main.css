@@ -68,8 +68,8 @@ body {
 }
 
 .item-container{
-  text-align: center;
-  
+  width: 55%;
+  margin: 20px auto;
 }
 
 /*
@@ -79,7 +79,7 @@ body {
 */
 #ItemInput {
     padding: 5px 5px;
-    width: 600px;
+    width: 55%;
     border: solid;
     border-radius: 5px;
     height: 20px;
@@ -142,11 +142,16 @@ li {
 }
 
 .item {
-  width: 710px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   display:flex;
-  justify-content: space-between;
+  
+  
+}
+
+.item p {
+  flex: 1;
 }
 
 /*
@@ -166,15 +171,19 @@ li {
 .fa-check-circle {
   color: #06df06;
   font-size: 25px;
-  margin-right: 5px;
+  margin-right: 10px;
+}
+.fa-edit {
+  font-size: 25px;
+  margin-right: 10px;
 }
 .fa-times-circle {
   color: #a71414;
   font-size: 25px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
-.fa-check-circle:hover, .fa-times-circle:hover {
+.fa-check-circle:hover, .fa-edit:hover, .fa-times-circle:hover {
   cursor: pointer;
 }
 
